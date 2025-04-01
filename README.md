@@ -14,7 +14,7 @@ Run on [LOAM-Livox](https://github.com/hku-mars/loam_livox) dataset
 Run the cli tool (only support ros1 bag)
 ```sh
 cargo install simple-icp-cli
-cargo install rerun-cli --version 0.18.2
+cargo install rerun-cli --version 0.22.1
 simple_icp {bag_path}
 # example
 simple_icp CYT_02.bag
