@@ -1,6 +1,6 @@
 [package]
 name = "simple-icp-cli"
-version = "0.1.0"
+version = "0.1.1"
 edition = "2021"
 authors = ["Powei Lin <poweilin1994@gmail.com>"]
 description = "Kiss icp in pure rust"
@@ -13,8 +13,8 @@ clap = { version = "4.5.15", features = ["derive"] }
 colorous = "1.0.14"
 nalgebra = "0.33.0"
 rayon = "1.10.0"
-rerun = "0.18.2"
-simple-icp = "0.1.1"
+rerun = "0.22.1"
+simple-icp = "0.2.0"
 unbag-rs = "0.1.1"
 
 [[bin]]
