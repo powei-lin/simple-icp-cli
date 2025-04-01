@@ -1,0 +1,24 @@
+[package]
+name = "simple-icp-cli"
+version = "0.1.0"
+edition = "2021"
+authors = ["Powei Lin <poweilin1994@gmail.com>"]
+description = "Kiss icp in pure rust"
+license = "MIT OR Apache-2.0"
+homepage = "https://github.com/powei-lin/simple-icp-cli"
+repository = "https://github.com/powei-lin/simple-icp-cli"
+
+[dependencies]
+clap = { version = "4.5.15", features = ["derive"] }
+colorous = "1.0.14"
+nalgebra = "0.33.0"
+rayon = "1.10.0"
+rerun = "0.18.2"
+simple-icp = "0.1.1"
+unbag-rs = "0.1.1"
+
+[[bin]]
+name = "simple_icp"
+path = "src/bin/simple_icp_cli.rs"
+test = false
+bench = false
